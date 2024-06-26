@@ -3,7 +3,7 @@ name: github_action_to_ec2
 on:
   workflow_dispatch:
   push:
-    branches: [ "main" ]
+    branches: [ "INTERN-762" ]
 
 jobs:
   setup_aws_terraform:

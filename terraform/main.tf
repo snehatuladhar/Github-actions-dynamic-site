@@ -5,7 +5,6 @@ resource "aws_instance" "app_server" {
   key_name               = var.key_name
   vpc_security_group_ids = [aws_security_group.network_security_group.id]
   subnet_id              = var.subnet_id
-  user_data              = var.user_data
 
   tags = {
     Name = "ProjectServerInstance"

@@ -12,10 +12,10 @@
   #  ansible_user: ec2-user
 
   tasks:
-  - name: Install net-tools
-    yum:
-      name: net-tools
-      state: present
+  # - name: Install net-tools
+  #   yum:
+  #     name: net-tools
+  #     state: present
 
   - name: Install Git
     yum:

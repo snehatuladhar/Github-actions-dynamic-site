@@ -30,15 +30,15 @@ jobs:
 
       - name: Terraform Init
         run: terraform init
-        working-directory: infrastructure
+        working-directory: terraform
 
       - name: Terraform Plan
         run: terraform plan 
-        working-directory: infrastructure
+        working-directory: terraform
 
       - name: Terraform Apply
         run: terraform apply -auto-approve
-        working-directory: infrastructure
+        working-directory: terraform
 
   setup_ansible:
     runs-on: ubuntu-latest

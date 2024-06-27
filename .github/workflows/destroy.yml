@@ -1,7 +1,7 @@
 name: destroy_github_action_to_ec2
 on:
   push:
-    branches: [ "INTERN-762" ]
+    branches: [ "intern" ]
 
 jobs:
   setup_aws:
